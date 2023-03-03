@@ -1,0 +1,32 @@
+#home{
+    padding: 40px 0 104px;
+}
+
+.home_title{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+h1{
+font-size: 47px;
+line-height: 59px;
+font-weight: 700;
+max-width: 124px;
+}
+
+.home_title p{
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+max-width: 156px;
+align-self:flex-end;
+padding-bottom: 20px;
+word-wrap:break-word;
+}
+
+.home__image img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}

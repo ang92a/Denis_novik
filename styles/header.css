@@ -1,0 +1,25 @@
+header {
+  background: #ffffff;
+  padding-top: 32px;
+}
+
+.header__list {
+  display: flex;
+  justify-content: space-between;
+  border-bottom:  1px solid #828282;
+  padding-bottom: 32px;
+}
+
+.header__item {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  text-align: left;
+  color: #828282;
+  transition: 0.2s;
+}
+
+.header__item:hover {
+  color: #070707;
+  transition: 0.2s;
+}

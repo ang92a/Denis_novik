@@ -1,0 +1,28 @@
+#about {
+  padding: 120px 0 107px;
+  background: #f6f6f6;
+}
+
+.about__title {
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 42px;
+  text-align: center;
+  margin-bottom: 18px;
+}
+
+.about__text {
+  max-width: 486px;
+  margin: 0 auto;
+}
+
+.about__text p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  padding-bottom: 30px;
+  margin: 0 auto;
+  white-space: pre-line;
+}
+
