@@ -1,14 +1,15 @@
-.contact__wrapper {
+#contact {
   padding: 114px 0 123px 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  background: #fff;
 }
 
 .contact__title {
   font-weight: 700;
   font-size: 34px;
-  line-height: 42px;
+  line-height: 43px;
   text-align: center;
 }
 
@@ -19,6 +20,7 @@
   text-align: center;
   color: #070707;
   white-space: pre-line;
+  height: 64px;
 }
 
 .contact__button {
@@ -30,10 +32,28 @@
   text-align: center;
   color: #fff;
   border-radius: 35px;
-  padding: 13px 28px 6px 28px;
-  margin: 0 auto;
+  padding: 12px 28px 12px 28px;
+  margin: 29px auto 86px;
 }
 
-#contact img {
+.footer__icon{
+  display: flex;
+  justify-content: space-between;
+  width: 342px;
+}
+
+.footer__icon img{
   display: block;
+}
+
+.contact__footer{
+font-weight: 500px;
+font-size: 14px;
+line-height: 17px;
+letter-spacing: 0em;
+text-align: center;
+white-space: pre-line;
+color: #828282;
+height: 80px;
+align-self: flex-end;
 }
