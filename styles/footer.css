@@ -1,8 +1,5 @@
 #contact {
   padding: 114px 0 123px 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   background: #fff;
 }
 
@@ -39,21 +36,18 @@
 .footer__icon{
   display: flex;
   justify-content: space-between;
-  width: 342px;
+  max-width: 342px;
+  align-items: center;
+  margin: 0 auto;
 }
 
-.footer__icon img{
-  display: block;
-}
 
 .contact__footer{
-font-weight: 500px;
+font-weight: 500;
 font-size: 14px;
 line-height: 17px;
-letter-spacing: 0em;
 text-align: center;
 white-space: pre-line;
 color: #828282;
-height: 80px;
 align-self: flex-end;
 }
