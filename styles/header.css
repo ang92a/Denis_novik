@@ -6,7 +6,7 @@ header {
 .header__list {
   display: flex;
   justify-content: space-between;
-  border-bottom:  1px solid #828282;
+  border-bottom: 1px solid #828282;
   padding-bottom: 32px;
 }
 
@@ -22,4 +22,10 @@ header {
 .header__item:hover {
   color: #070707;
   transition: 0.2s;
+}
+
+@media (max-width: 768px) {
+  .header {
+    display: none;
+  }
 }

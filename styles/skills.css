@@ -53,3 +53,35 @@
   display: inline;
   flex-direction: column;
 }
+
+@media (max-width: 940px) {
+  .skills__icons {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 400px;
+    align-items: center;
+    margin: 0 auto;
+    column-gap: 65px;
+  }
+  .icon {
+    margin: 0 auto 40px;
+  }
+  .icon:last-child {
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 568px) {
+  .skills__icons {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 300px;
+    align-items: center;
+  }
+  .icon {
+    margin: 0 auto 80px;
+  }
+  .icon:last-child {
+    margin: 0 auto;
+  }
+}

@@ -34,3 +34,10 @@ ol {
   text-align: center;
   color: #000;
 }
+
+@media  (max-width: 1024px) {
+  .container {
+    max-width: 90%;
+    padding: 0 15px;
+  }
+}
