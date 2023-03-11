@@ -21,7 +21,15 @@
   font-size: 18px;
   line-height: 22px;
   text-align: center;
-  padding-bottom: 30px;
-  margin: 0 auto;
   white-space: pre-line;
+}
+
+.about__text p:not(:last-child) {
+  margin: 0 auto 30px;
+}
+
+@media (max-width: 586px) {
+  #about {
+    padding: 81px 0 76px;
+  }
 }

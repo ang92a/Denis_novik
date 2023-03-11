@@ -3,8 +3,8 @@
   background: #f6f6f6;
 }
 
-.portfolio__item {
-  padding-bottom: 99px;
+.portfolio__item:not(:last-child) {
+  margin-bottom: 99px;
 }
 
 .portfolio__title {
@@ -24,8 +24,31 @@
 }
 
 .portfolio__subtitle {
+  display: block;
   font-weight: 500;
   font-size: 18px;
   line-height: 22px;
   text-align: center;
+  text-decoration: underline;
+  transition: 0.3;
+}
+
+.portfolio__subtitle:hover{
+  transform: scale(1.2);
+  transition: 0.3;
+  cursor: pointer;
+}
+
+@media (max-width: 568px) {
+#portfolio {
+  padding: 80px 0 80px 0;
+}
+
+.portfolio__item:not(:last-child) {
+  margin-bottom: 77px;
+}
+
+.portfolio__item img {
+  margin-bottom: 35px;
+}
 }

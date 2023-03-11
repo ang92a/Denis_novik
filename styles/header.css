@@ -1,13 +1,11 @@
 header {
   background: #ffffff;
-  padding-top: 32px;
 }
 
 .header__list {
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid #828282;
-  padding-bottom: 32px;
 }
 
 .header__item {
@@ -17,6 +15,9 @@ header {
   text-align: left;
   color: #828282;
   transition: 0.2s;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  display: block;
 }
 
 .header__item:hover {
@@ -28,4 +29,7 @@ header {
   .header {
     display: none;
   }
+
+
+  
 }
